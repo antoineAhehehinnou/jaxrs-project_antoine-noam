@@ -1,10 +1,13 @@
-.settings/
-target/
+#Ignore les fichiers de configuration d'eclipse
 .classpath
 .project
+.settings/
 
-
+#ignore les fichiers compilé de java
 *.class
+
+#ignore le repertoire build maven
+target/
 
 # Ignore les fichiers personnels et systèmes
 
